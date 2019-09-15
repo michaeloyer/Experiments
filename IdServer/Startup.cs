@@ -18,6 +18,9 @@ namespace IdServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentityServer()
+                .AddIdentityServerObjects();
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -27,9 +30,12 @@ namespace IdServer
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseIdentityServer();
+
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                await context.Response.WriteAsync("Unauthorized Connection");
             });
         }
     }
