@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A839562D-82C3-457D-9D79-6065D7A0961A}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|x64.Build.0 = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|x64.ActiveCfg = Release|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|x64.Build.0 = Release|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{7661B7C2-0AF8-4C48-8903-E002EB0DD0AD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D52724E-2915-49A1-9C23-2290669B650F}
+	EndGlobalSection
+EndGlobal
